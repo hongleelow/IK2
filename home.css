@@ -1,10 +1,50 @@
-body{
-    background-color: #EDEDED;
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Book.otf);
+  }
+
+@media screen and (min-width: 600px) {
+    
+
+    body{ 
+        background-color: #EDEDED;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+        background-image: url("Home back.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .overlay {
+        color: white;
+        font-family:Avenir;
+    }
+
+    .overlay > h1 {
+        position: relative;
+        margin-left: 15%;
+        margin-top: 25%;
+        font-size: 65px;
+        font-weight: 100;
+        letter-spacing: 0.06em;
+    }
+
+    .overlay > h2 {
+        position: relative;
+        margin-left: 80%;
+        margin-top: 10%;
+        font-size: 50px;
+        font-weight: 10;
+        letter-spacing: 0.05em;
+    }
+
 
 }
-body > img {
-    padding: 20px;
-}
+
 
 
 
