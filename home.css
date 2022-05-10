@@ -3,6 +3,8 @@
     src: url(AvenirLTStd-Book.otf);
   }
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 @media screen and (min-width: 600px) {
     
 
@@ -46,10 +48,10 @@
         position: absolute;
         display: inline-flex;
         font-family: Avenir;
-        font-size: 30px;
+        font-size: 27px;
         left: 14%;
         margin-top: 1%;
-        opacity: 0.75;
+        opacity: 0.55;
     }
 
     nav .cart {
@@ -114,10 +116,18 @@
     }
     
     .info {
+        display: flex;
         background-color: #624021;
-        padding: 1em;
+        padding: 1em 2em;
         color: white;
         font-family: Avenir;
+        justify-content: space-between;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    
+    .help {
+        font-family: 'Playfair Display', serif;
     }
 
     
