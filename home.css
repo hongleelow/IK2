@@ -10,9 +10,59 @@
         background-color: #EDEDED;
     }
 
+    nav{
+        position: relative;
+        text-align: center;
+    }
+
+    nav .logo {
+        position: absolute;
+        padding-top: 1em;
+        height: 40px;
+        left: 50%;
+    }
+
+    nav .hamburger {
+        position: absolute;
+        padding-left: 1em;
+        padding-top: 1em;
+        left: 0%;
+    }
+
+
+    .search_bar {
+        position: absolute;
+        left: 10%;
+    }
+
+    .search_button {
+        position: absolute;
+        padding-top: 1em;
+        left: 11%
+    
+    }
+
+    nav > p {
+        position: absolute;
+        display: inline-flex;
+        font-family: Avenir;
+        font-size: 30px;
+        left: 14%;
+        margin-top: 1%;
+        opacity: 0.75;
+    }
+
+    nav .cart {
+        position: absolute;
+        padding-right: 1em;
+        padding-top: 1em;
+        height: 35px;
+        left: 97%
+    }
+
     .image {
         width: 100%;
-        height: auto;
+        height: 1100px;
         background-image: url("Home back.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -20,27 +70,57 @@
 
 
     .overlay {
+        width: 100%;
+        position: relative;
         color: white;
         font-family:Avenir;
     }
 
     .overlay > h1 {
-        position: relative;
-        margin-left: 15%;
-        margin-top: 25%;
+        position: absolute;
+        left: 18%;
+        margin-top: 30%;
         font-size: 65px;
         font-weight: 100;
         letter-spacing: 0.06em;
     }
 
+    .overlay > img {
+        position: absolute;
+        left: 78%;
+        margin-top: 50%;
+    }
+
     .overlay > h2 {
-        position: relative;
-        margin-left: 80%;
-        margin-top: 10%;
-        font-size: 50px;
+        position: absolute;
+        left: 80%;
+        margin-top: 50%;
+        font-size: 55px;
         font-weight: 10;
         letter-spacing: 0.05em;
     }
+
+    .products {
+        display: flex;
+    }
+
+    .sale > header {
+        position: relative;
+        text-align: center;
+        font-family: Avenir;
+        font-size: 60px;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    
+    .info {
+        background-color: #624021;
+        padding: 1em;
+        color: white;
+        font-family: Avenir;
+    }
+
+    
 
 
 }
