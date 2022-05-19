@@ -23,6 +23,7 @@
         position: absolute;
         height: 40px;
         margin-top: 1.5%;
+        margin-left: -1.5%;
     }
 
     nav .hamburger {
@@ -308,10 +309,10 @@
     nav > p {
         position: absolute;
         font-family: Avenir;
-        font-size: 22px;
-        margin-left: 13.8%;
-        margin-top: 12.8%;
-        opacity: 0.55;
+        font-size: 20px;
+        margin-left: 12%;
+        margin-top: 13.3%;
+        opacity: 0.5;
     }
 
     nav .cart {
