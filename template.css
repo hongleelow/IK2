@@ -3,9 +3,13 @@
     src: url(AvenirLTStd-Book.otf);
   }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@font-face {
+    font-family: Playfair Display;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
 
 @media screen and (min-width: 600px) {
+    
 
     body{ 
         background-color: #EDEDED;
@@ -51,9 +55,9 @@
     nav > p {
         position: absolute;
         font-family: Avenir;
-        font-size: 20px;
+        font-size: 24px;
         left: 10.5%;
-        margin-top: 1.7%;
+        margin-top: 1.55%;
         opacity: 0.5;
     }
 
@@ -64,107 +68,42 @@
         margin-top: 1.5%;
     }
 
-    .products > h1 {
-        text-align: center;
-        margin-top: 5%;
+    h1 {
         font-family: Avenir;
-        font-weight: 500;
-        font-size: 42px;
+        font-weight: 300;
     }
 
-    .products {
-        font-family: 'Playfair Display', serif;
+    h2 {
+        font-family: Avenir;
+        font-weight: 400;
     }
 
-    .products > img {
-        position: relative;
-        width: 90%;
-        padding-left: 5%;
-        opacity: 0.3;
-    }
-
-    .plist {
-        display: flex;
-    }
-
-    .pimage {
-        position: relative;
-        height: 350px;
-        padding-top: 2.5em;
-        padding-bottom: 2.5em;
-        margin-left: 30%;
-    }
-
-    .plist > h2 {
-        position: relative;
-        font-size: 35px;
+    h3 {
+        font-family: Playfair Display;
         font-weight: 50;
-        margin-top: 10%;
-        padding-left: 18%;
+    }
+
+    h4 {
+        font-family: Playfair Display;
     }
 
     .oldp {
-        position: relative;
-        font-family: 'Playfair Display', serif;
-        font-size: 23px;
-        margin-left: 13%;
-        margin-top: 11.2%;
         font-weight: 10;
+        font-family: Playfair Display;
         text-decoration-line: line-through;
     }
 
     .newp {
-        position: relative;
-        font-family: 'Playfair Display', serif;
-        padding-left: 1%;
-        font-size: 30px;
         font-weight: 600;
+        font-family: Playfair Display;
         color: #9B7757;
-        margin-top: 10.5%;
     }
-
-    .atc {
-        position: relative;
-        margin-left: 8%;
-        margin-top: 13%;
-    }
-
-    .plus {
-        position: absolute;
-        margin-left: -80%;
-    }
-
-    .atclogo {
-        position: absolute;
-        margin-left: -50%;
-        margin-top: 11%;
-        height: 30px;
-        opacity: 0.75;
-    }
-   
 
     .condition {
-        position: absolute;
         display: flex;
-        margin-left: 44%;
-        margin-top: 18%;
     }
 
-    .condition > p {
-        font-family: Avenir;
-        position: relative;
-        text-align: center;
-        margin-top: 4%;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    .condition > img {
-        position: relative;
-        height: 40px;
-        padding: 1em;
-    }
-
+    
 
     .info {
         display: flex;
@@ -208,7 +147,7 @@
     }
 
     .help > button {
-        font-family: 'Playfair Display', serif;
+        font-family: Playfair Display;
         font-size: 20px;
         height: 50px;
         border-radius: 100px;
@@ -239,16 +178,16 @@
         border-radius: 10px;
     }
 
+
 }
 
 @media screen and (max-width: 600px) {
-
-    body { 
+    body{ 
         background-color: #EDEDED;
         margin: 0%;
     }
 
-    nav {
+    nav{
         position: relative;
         text-align: center;
         padding: 0.75em;
@@ -300,101 +239,25 @@
         margin-left: 40%;
     }
 
-    .products > h1 {
-        font-family: Avenir;
-        font-size: 40px;
-        text-align: center;
-        font-weight: 400;
-        padding-top: 20%;
-    }
-
-    .products {
-        font-family: 'Playfair Display', serif;
-    }
-
-
-    .plist > img {
-        width: 400px;
-        margin-left: 15.5%;
-        padding-top: 2em;
-        padding-bottom: 1em;
-    }
-
-    .plist > h2 {
-        text-align: center;
-        font-size: 30px;
-        font-weight: 10;
-    }
+   
 
     .oldp {
-        display: inline;
-        font-family: 'Playfair Display', serif;
-        margin-left: 41.5%;
-        text-decoration: line-through;
-        font-size: 25px;
-
+        font-weight: 10;
+        font-family: Playfair Display;
+        text-decoration-line: line-through;
     }
 
     .newp {
-        display: inline;
-        font-family: 'Playfair Display', serif;
-        padding-left: 0.3em;
-        font-size: 30px;
-        color: #624021;
-    }
-
-    .atc {
-        position: relative;
-        text-align: center;
-        padding-top: 1em;
-    }
-
-    .atcbutton {
-        height: 50px;
-    }
-
-    .plus {
-        position: absolute;
-        margin-left: -13.25%;
-        margin-top: -0.75%;
-    }
-
-    .atclogo {
-        position: absolute;
-        margin-left: -8%;
-        margin-top: 2%;
-        height: 25px;
-        opacity: 0.75;
-    }
-
-    .pimage {
-        width: 80%;
-        margin-left: 10%;
-
-
+        font-weight: 500;
+        font-family: Playfair Display;
+        color: #9B7757;
     }
 
     .condition {
-        position: relative;
         display: flex;
-        margin-left: 4%;
         text-align: center;
-        padding-top: 2em;
-        padding-bottom: 2em;
     }
-
-    .condition > img {
-        height: 35px;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    .condition > p {
-        position: relative;
-        margin-top: 0%;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
+    
 
     .info {
         background-color: #624021;
@@ -430,7 +293,7 @@
     }
 
     .help > button {
-        font-family: 'Playfair Display', serif;
+        font-family: Playfair Display;
         font-size: 15px;
         height: 50px;
         border-radius: 100px;
@@ -462,5 +325,10 @@
         font-size: 12px;
         border-radius: 10px;
     }
+
+
+
+    
 }
+
 

@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Book.otf);
+  }
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@media screen and (min-width: 600px) {
+
+
+    .pline {
+        position: relative;
+        width: 90%;
+        padding-left: 5%;
+        opacity: 0.3;
+    }
+
+    .plist {
+        display: flex;
+    }
+
+    .pimage {
+        position: relative;
+        height: 350px;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+        margin-left: 30%;
+    }
+
+    .plist > h3 {
+        position: relative;
+        font-size: 35px;
+        font-weight: 50;
+        margin-top: 11%;
+        padding-left: 18%;
+        white-space: nowrap;
+    }
+
+    .oldp {
+        position: relative;
+        font-size: 23px;
+        margin-left: 15%;
+        margin-top: 12.2%;
+        font-weight: 10;
+        text-decoration-line: line-through;
+    }
+
+    .newp {
+        position: relative;
+        padding-left: 1%;
+        font-size: 30px;
+        font-weight: 600;
+        color: #9B7757;
+        margin-top: 11.5%;
+    }
+
+    .atc {
+        position: relative;
+        margin-left: 8%;
+        margin-top: 13%;
+    }
+
+    .plus {
+        position: absolute;
+        margin-left: -80%;
+    }
+
+    .atclogo {
+        position: absolute;
+        margin-left: -50%;
+        margin-top: 11%;
+        height: 30px;
+        opacity: 0.75;
+    }
+
+    .condition {
+        position: absolute;
+        display: flex;
+        margin-left: 49%;
+        margin-top: 19%;
+    }
+
+    .condition > p {
+        font-family: Avenir;
+        position: relative;
+        text-align: center;
+        margin-top: 4%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .condition > img {
+        position: relative;
+        height: 40px;
+        padding: 1em;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .pimage {
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .plist > h3 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 10;
+    }
+
+    .oldp {
+        display: inline;
+        margin-left: 41.5%;
+        font-size: 25px;
+
+    }
+
+    .newp {
+        display: inline;
+        padding-left: 0.3em;
+        font-size: 30px;
+    }
+
+    .atc {
+        position: relative;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    .atcbutton {
+        height: 50px;
+    }
+
+    .plus {
+        position: absolute;
+        margin-left: -13.25%;
+        margin-top: -0.75%;
+    }
+
+    .atclogo {
+        position: absolute;
+        margin-left: -8%;
+        margin-top: 2%;
+        height: 25px;
+        opacity: 0.75;
+    }
+
+    .pline {
+        width: 90%;
+        margin-left: 5%;
+
+    }
+
+    .condition {
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-top: 3em;
+        padding-bottom: 2em;
+    }
+
+    .condition > img {
+        height: 35px;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+
+    .condition > p {
+        position: relative;
+        margin-top: 0%;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+
+
+   
+
+}

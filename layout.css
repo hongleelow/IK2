@@ -1,0 +1,483 @@
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Book.otf);
+  }
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@media screen and (min-width: 600px) {
+
+    .home_over {
+        background-image: url("Home back.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+    }
+
+
+    .overlay {
+        width: 100%;
+        position: relative;
+        color: white;
+        font-family: Avenir;
+    }
+
+    .overlay > h1 {
+        position: absolute;
+        margin-left: 16%;
+        margin-top: 18%;
+        font-size: 66px;
+        font-weight: 400;
+        letter-spacing: 0.06em;
+    }
+
+    .shopbutton {
+        position: absolute;
+        margin-left: 72%;
+        margin-top: 32%;
+        height: 100px;
+    }
+
+    .overlay > p {
+        position: absolute;
+        margin-left: 73.75%;
+        margin-top: 33%;
+        font-size: 45px;
+        font-weight: 10;
+        letter-spacing: 0.05em;
+    }
+
+    .home_sale > h2 {
+        text-align: center;
+        font-family: Avenir;
+        font-size: 40px;
+        font-weight: 400;
+        padding-top: 1em;
+    }
+
+    .plist_page > h1 {
+        text-align: center;
+        margin-top: 5%;
+        font-weight: 400;
+        font-size: 42px;
+    }
+
+    .pline {
+        position: relative;
+        width: 90%;
+        padding-left: 5%;
+        opacity: 0.3;
+    }
+
+    .plist {
+        display: flex;
+    }
+
+    #homepage .pimage, #plistpage .pimage {
+        position: relative;
+        height: 350px;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+        margin-left: 30%;
+    }
+
+    #homepage .plist > h3, #plistpage .plist > h3 {
+        position: relative;
+        font-size: 35px;
+        font-weight: 50;
+        margin-top: 11%;
+        padding-left: 18%;
+        white-space: nowrap;
+    }
+
+    #homepage .oldp, #plistpage .oldp {
+        position: relative;
+        font-size: 23px;
+        margin-left: 15%;
+        margin-top: 12.2%;
+        font-weight: 10;
+    }
+
+    #homepage .newp, #plistpage .newp {
+        position: relative;
+        padding-left: 1%;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 11.5%;
+    }
+
+    #homepage .condition, #plistpage .condition {
+        position: absolute;
+        margin-left: 49%;
+        margin-top: 19%;
+    }
+
+    .condition > p {
+        font-family: Avenir;
+        position: relative;
+        text-align: center;
+        margin-top: 4%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .condition > img {
+        position: relative;
+        height: 40px;
+        padding: 1em;
+    }
+
+    /* Below is the code for the product page */
+
+    .prod {
+        display: flex;
+        padding-top: 5%;
+    }
+
+    #productpage .pimage {
+        display: grid;
+        padding: 4em;
+        margin-left: 3%;
+    }
+
+    .primary_img {
+        width: 700px;
+
+    } 
+
+    .secondary_img {
+        width: 700px;
+        margin-left: -0.5%;
+        margin-top: -0.5%;
+    }
+
+    #productpage .pinfo {
+        display: relative;
+    }
+
+    #productpage .pinfo > h1 {
+        position: relative;
+        font-family: Avenir;
+        font-weight: 200;
+        font-size: 55px;
+        margin-top: 30%;
+        padding-left: 24%;
+    }
+
+    .price {
+        position: relative;
+        display: flex;
+        margin-left: 40%;
+    }
+
+    #productpage .oldp {
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        font-weight: 10;
+        text-decoration-line: line-through;
+        margin-top: 8.5%;
+    }
+
+    #productpage .newp {
+        font-family: 'Playfair Display', serif;
+        padding-left: 8%;
+        font-size: 35px;
+        font-weight: 600;
+        color: #9B7757;
+    }
+
+    #productpage .condition {
+        display: flex;
+        margin-left: 9%;
+        padding-top: 5%;
+
+    }
+
+    .condition > p {
+        font-family: Avenir;
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+
+    .des {
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 5%;
+        padding-right: 10%;
+        margin-left: 10%;
+    }
+
+    .buttons {
+        display: flex;
+        margin-left: 15%;
+        padding-top: 8%;
+        justify-content: space-between;
+    }
+
+    .buttons > button {
+        font-family: Avenir;
+        width: 80px;
+        font-size: 20px;
+        border-radius: 10px;
+        letter-spacing: 0.2em;
+    }
+
+    .atc {
+        position: relative;
+
+    }
+
+    .plus {
+        position: absolute;
+        margin-left: -80%;
+    }
+
+    .atclogo {
+        position: absolute;
+        margin-left: -50%;
+        margin-top: 11%;
+        height: 30px;
+        opacity: 0.75;
+    }
+
+    .extra {
+        font-family: Avenir;
+        font-style: oblique;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .home_sale > h2 {
+        text-align: center;
+        font-family: Avenir;
+        font-size: 40px;
+        font-weight: 400;
+        padding-top: 0.3em;
+    }
+
+    .home_over {
+        width: 100%;
+        height: 1100px;
+        background-image: url("mobile back.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .overlay {
+        width: 100%;
+        position: relative;
+        color: white;
+        font-family:Avenir;
+    }
+
+    .overlay > h1 {
+        position: absolute;
+        justify-content: center;
+        margin-top: 71%;
+        font-size: 50px;
+        font-weight: 100;
+        letter-spacing: 0.06em;
+        padding-left: 2em;
+        padding-right: 2em;
+        text-align: center;
+    }
+
+    .shopbutton {
+        position: absolute;
+        margin-left: 35.5%;
+        margin-top: 102%;
+        height: 80px;
+        width: 160px;
+    }
+
+    .overlay > p {
+        position: absolute;
+        margin-left: 41%;
+        margin-top: 104%;
+        font-size: 40px;
+        font-weight: 10;
+    }
+
+    .plist_page > h1 { 
+        font-size: 40px;
+        text-align: center;
+        font-weight: 400;
+        padding-top: 20%;
+    }
+
+    /* The section below is for displaying products on the home and listing pages */
+
+    #homepage .pimage, #plistpage .pimage {
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+
+    #homepage .plist > h3, #plistpage .plist > h3 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 10;
+    }
+
+    #homepage .oldp, #plistpage .oldp {
+        display: inline;
+        margin-left: 41.5%;
+        font-size: 25px;
+
+    }
+
+    #homepage .newp, #plistpage .newp {
+        display: inline;
+        padding-left: 0.3em;
+        font-size: 30px;
+    }
+
+    .pline {
+        width: 90%;
+        margin-left: 5%;
+
+    }
+
+    #homepage .condition, #plistpage .condition {
+        position: relative;
+        display: flex;
+        margin-left: 4%;
+        text-align: center;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .condition > img {
+        height: 35px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .condition > p {
+        position: relative;
+        margin-top: 0%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    /* This is the start of the code for the mobile product*/
+
+    #productpage .pimage {
+        position: relative;
+        margin-top: 25%;
+        text-align: center;
+    }
+
+    .primary_img {
+        width: 90%;
+    }
+
+    .secondary_img {
+        width: 90%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+
+    .pinfo {
+        text-align: center;
+    }
+
+    #productpage .pinfo > h3 {
+        font-weight: 100;
+        font-size: 35px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+    }
+
+    #productpage .oldp {
+        font-size: 25px;
+    }
+
+    #productpage .newp {
+        padding-left: 0.3em;
+        font-size: 30px;
+        margin-top: 2.5%;
+    }
+
+    #productpage .condition {
+        position: relative;
+        display: flex;
+        margin-left: 4%;
+        text-align: center;
+        padding-top: 2em;
+    }
+
+    .des {
+        font-family: 'Playfair Display', serif;
+        padding: 2em;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttons > button {
+        width: 100px;
+        border-radius: 10px;
+        font-size: 22px;
+        letter-spacing: 0.2em;
+        font-family: Avenir;
+    }
+
+    .atc {
+        position: relative;
+        margin-left: 40%;
+        
+    }
+
+    .atcbutton {
+        height: 50px;
+    }
+
+    .plus {
+        position: absolute;
+        margin-left: -83%;
+        margin-top: -2%;
+       
+    }
+
+    .atclogo {
+        position: absolute;
+        height: 25px;
+        opacity: 0.75;
+        margin-left: -50%;
+        margin-top: 15%;
+    }
+
+
+      
+
+    .extra {
+        font-family: Avenir;
+        font-style: oblique;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .extra > img {
+        width: 85%;
+    }
+}
