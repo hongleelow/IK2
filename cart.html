@@ -6,13 +6,82 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="template.css">
+        <link rel="stylesheet" href="layout.css">
+        <link rel="stylesheet" href="fonts.css">
     </head>
-    <body>
-        <p>This is the shopping cart</p>
-        <img src="" alt="">
+    <body id="cart">
+        <nav>
+            <img src="hamburger black.png" alt="Menu logo" class="hamburger">
+            <img class="search_bar" src="search bar.png" alt="">
+            <img class="search_button" src="search icon.png" alt="">
+            <p> Search </p>
+            <a href="index.html">
+                <img class="logo" src="ik2 logo.png" alt="Website logo-IK2" >
+            </a>
+            <a href="cart.html">
+                <img class="cart" src="cart black.png" alt="Shopping cart logo" >
+            </a>
+        </nav>
 
-        
+        <h1>MY CART</h1>
+        <div class="plist">
+            <a href="product.html">
+                <img class="pimage" src="Home 1.png" alt="">
+            </a>
+            <div class="pinfo">
+                    <h3>Product Name</h3>
+                    <h4 class="oldp">$199</h4>
+                    <h4 class="newp">$99</h4>
+                    <input type="button" value="-" class="minus"><input type="number" 
+                    step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" 
+                    size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+            </div>
+        </div>
+        <div class="plist">
+            <a href="product.html">
+                <img class="pimage" src="Home 2.png" alt="">
+            </a>
+            <div class="pinfo">
+                <h3>Product Name</h3>
+                <h4 class="oldp">$199</h4>
+                <h4 class="newp">$99</h4>
+                <input type="button" value="-" class="minus"><input type="number" 
+                step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" 
+                size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="delivery">
+                <img class="icon" src="delivery-svgrepo-com-2.png" alt="">
+                <p>WEEKDAY &<br>WEEKEND<br>DELIVERIES</p>
+            </div>
+            <div class="warranty">
+                <img class="icon" src="6-plus-svgrepo-com.png" alt="">
+                <p>6 MONTH<br>WARRANTY<br>PERIOD</p>
+            </div>
+            <div class="email">
+                <img class="icon" src="email-svgrepo-com.png" alt="">
+                <p>CONTACT US<br>THROUGH EMAIL<br>ANYTIME</p>
+            </div>
+            <div class="license">
+                <img class="icon" src="license-svgrepo-com.png" alt="">
+                <p>LICENSED SECOND<br>HAND DEALER</p>
+            </div>
+        </div>    
+        <div class="help">
+            <button>FAQ</button>
+            <button>Contact Info</button>
+            <button>Store Policy</button>
+            <button>Product Care</button>
+            <div class="emailsignup">
+                <p>Email Address</p>
+                <img src="line.png" alt="">
+                <button>SIGN UP</button>
+            </div>
+        </div>   
+       
         <script src="" async defer></script>
     </body>
 </html>
