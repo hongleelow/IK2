@@ -2,10 +2,18 @@ h1 {
     font-family: Avenir;
 }
 
+h2 {
+    font-family: Avenir;
+}
+
 h3 {
     font-family: Playfair Display;
 }
 
 h4 {
+    font-family: Playfair Display;
+}
+
+.oldp, .newp {
     font-family: Playfair Display;
 }

@@ -69,36 +69,28 @@
     }
 
     h1 {
-        font-family: Avenir;
         text-align: center;
         font-size: 45px;
-        font-weight: 400;
+        font-weight: 500;
         padding-top: 1.5em;
+        opacity: 0.85;
     }
 
     h2 {
-        font-family: Avenir;
         font-weight: 400;
     }
 
     h3 {
-        font-family: Playfair Display;
         font-weight: 50;
-    }
-
-    h4 {
-        font-family: Playfair Display;
     }
 
     .oldp {
         font-weight: 10;
-        font-family: Playfair Display;
         text-decoration-line: line-through;
     }
 
     .newp {
         font-weight: 600;
-        font-family: Playfair Display;
         color: #9B7757;
     }
 
@@ -111,6 +103,7 @@
     .info {
         display: flex;
         background-color: #624021;
+        opacity: 0.85;
         color: white;
         font-family: Avenir;
         font-size: 16px;
@@ -282,6 +275,7 @@
 
     .info {
         background-color: #624021;
+        opacity: 0.85;
         font-family: Avenir;
         font-size: 13px;
         font-weight: 10;
