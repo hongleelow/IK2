@@ -253,7 +253,7 @@
 
     .summary {
         position: relative;
-        margin-left: 40%;
+        margin-left: 35%;
         margin-top: 5%;
     }
 
@@ -264,8 +264,6 @@
     }
 
      #cart .pinfo > h3 {
-        font-family: Avenir;
-        font-style: oblique;
         font-weight: 400;
         font-size: 35px;
         margin-left: 10%;
@@ -289,7 +287,7 @@
     } 
 
     .cline {
-        width: 180%;
+        width: 160%;
         opacity: 0.3;
         padding-left: 8%;
     }
@@ -336,6 +334,84 @@
         font-size: 30px;
     }
 
+    /* Test code for checkout form */
+
+    .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        margin: 0 -16px;
+      }
+      
+      .col-25 {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+      }
+      
+      .col-50 {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+      }
+      
+      .col-75 {
+        -ms-flex: 75%; /* IE10 */
+        flex: 75%;
+      }
+      
+      .col-25,
+      .col-50,
+      .col-75 {
+        padding: 0 16px;
+      }
+      
+      .container {
+        background-color: #f2f2f2;
+        padding: 5px 20px 15px 20px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+      }
+      
+      input[type=text] {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+      
+      label {
+        margin-bottom: 10px;
+        display: block;
+      }
+      
+      .icon-container {
+        margin-bottom: 20px;
+        padding: 7px 0;
+        font-size: 24px;
+      }
+      
+      .btn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        width: 100%;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 17px;
+      }
+      
+      .btn:hover {
+        background-color: #45a049;
+      }
+      
+      span.price {
+        float: right;
+        color: grey;
+      }
+
 
 }
 
@@ -372,7 +448,7 @@
         position: absolute;
         margin-left: -15.5%;
         margin-top: 102%;
-       text-decoration: none;
+        text-decoration: none;
     }
 
     .overlay > p {
@@ -641,26 +717,28 @@
     }
 
     .checkoutbuttons {
-        position: relative;
-        display: flex;
+        padding: 2em;
+    }
 
+    .checkoutbuttons > a {
+        text-decoration: none;
     }
 
     .checkoutbuttons > img {
-        height: 70px;
+        height: 60px;
     }
 
     .checkoutbuttons > a > img {
-        height: 80px;
+        height: 70px;
+
     }
 
     .checkoutbuttons > a > p {
-        position: absolute;
         color: white;
+        margin-top: -10%;
+        margin-left: 15%;
         font-family: Playfair Display;
-        font-size: 25px;
-        margin-top: -22%;
-        margin-left: 13%;
+        font-size: 20px;   
     }
 
     .tot {
