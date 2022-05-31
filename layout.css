@@ -34,25 +34,29 @@
         letter-spacing: 0.06em;
     }
 
-    .shopbutton {
+    
+
+    
+
+    #homepage .btn {
         position: absolute;
-        margin-left: 72%;
-        margin-top: 32%;
-
-    }
-
-    .overlay > a > img {
-        height: 120px;
-    }
-
-    .overlay > a > h5 {
+        border: 2px solid white;
+        height: 100px;
+        width: 200px;
         color: white;
-        position: absolute;
-        margin-top: -50%;
-        margin-left: 20%;
+        font-family: Avenir;
         font-size: 45px;
         font-weight: 10;
         letter-spacing: 0.05em;
+        background-color: transparent;
+        border-radius: 15px;
+        margin-top: 32%;
+        margin-left: 75%;
+    }
+
+    #homepage .btn:hover {
+        background-color: #EFEFEF;
+        color: black;
     }
 
    
@@ -277,13 +281,14 @@
 
     #cart .oldp {
         font-size: 25px;
-        
+        font-weight: 100;
     } 
 
     #cart .newp {
         font-size: 30px;
         margin-top: 18%;
         padding-left: 0.3em;
+        font-weight: 500;
     } 
 
     .cline {
@@ -334,84 +339,108 @@
         font-size: 30px;
     }
 
-    /* Test code for checkout form */
-
-    .row {
-        display: -ms-flexbox; /* IE10 */
-        display: flex;
-        -ms-flex-wrap: wrap; /* IE10 */
-        flex-wrap: wrap;
-        margin: 0 -16px;
-      }
-      
-      .col-25 {
-        -ms-flex: 25%; /* IE10 */
-        flex: 25%;
-      }
-      
-      .col-50 {
-        -ms-flex: 50%; /* IE10 */
-        flex: 50%;
-      }
-      
-      .col-75 {
-        -ms-flex: 75%; /* IE10 */
-        flex: 75%;
-      }
-      
-      .col-25,
-      .col-50,
-      .col-75 {
-        padding: 0 16px;
-      }
-      
-      .container {
-        background-color: #f2f2f2;
-        padding: 5px 20px 15px 20px;
-        border: 1px solid lightgrey;
-        border-radius: 3px;
-      }
-      
-      input[type=text] {
-        width: 100%;
-        margin-bottom: 20px;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-      }
-      
-      label {
-        margin-bottom: 10px;
-        display: block;
-      }
-      
-      .icon-container {
-        margin-bottom: 20px;
-        padding: 7px 0;
-        font-size: 24px;
-      }
-      
-      .btn {
-        background-color: #04AA6D;
+    #cart .btn {
+        background-color: #FFCC00;
+        opacity: 0.9;
         color: white;
         padding: 12px;
         margin: 10px 0;
         border: none;
-        width: 100%;
-        border-radius: 3px;
+        width: 300px;
+        height: 70px;
+        border-radius: 10px;
         cursor: pointer;
-        font-size: 17px;
-      }
+        font-size: 20px;
+        margin-top: 90%;
+    }
+
+    /* Test code for checkout form */
+
+    .row {
+        display: flex;
+    }
+    
+    #checkout_page .cinfo {
+        margin-left: 6%;
+        width: 60%;
+    }
+    
+
+
+    #checkout_page .col-50 > h2 {
+        text-align: center;
+        font-size: 28px;
+        white-space: nowrap;
+        padding-bottom: 1em;
+    }
       
-      .btn:hover {
-        background-color: #45a049;
-      }
+    #checkout_page .cont {
+        margin-left: 20%;
+    }
+
       
-      span.price {
+    #checkout_page input[type=text]{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+
+    }
+      
+    label {
+        display: block;
+        margin-bottom: 3%;
+        margin-left: 5%;
+        font-family: Playfair Display;
+    }
+      
+      
+    #checkout_page .btn {
+        background-color: #FFCC00;
+        opacity: 0.9;
+        color: white;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        width: 300px;
+        height: 70px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        margin-left: 12.5%;
+        margin-top: 50%;
+    }
+      
+    #cart .btn:hover, #checkout_page .btn:hover {
+        opacity: 1;
+        box-shadow: 5px 10px #EAEAEA;
+    }
+      
+    span.price {
         float: right;
         color: grey;
-      }
+    }
 
+    select {
+        appearance: none;
+        margin-top: 4.25%;
+        background-color: white;
+        padding: 15px;
+        font-family: Playfair Display;
+        color: #9b9b9b;
+        cursor: inherit;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+
+
+
+    
+    
+    
+
+    
 
 }
 
