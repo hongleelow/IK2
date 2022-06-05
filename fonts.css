@@ -4,6 +4,7 @@ h1 {
 
 h2 {
     font-family: Avenir;
+    font-weight: 400;
 }
 
 h3 {
@@ -14,6 +15,7 @@ h4 {
     font-family: Playfair Display;
 }
 
-.oldp, .newp {
+.oldp, .newp, .btn {
     font-family: Playfair Display;
 }
+

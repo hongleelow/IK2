@@ -27,29 +27,28 @@
         <h1>CHECKOUT</h1>
 
         <div class="row">
-            <div class="cinfo">
+            <div class="user_form">
               <div class="cont">
                 <form action="/action_page.php">
-                  <div class="row">
-                    <div class="col-50">
-                      <h2>Shipping Address</h2>
+                    <div class="user_info">
+                      <h2>Customer Info</h2>
                       <label for="email"><i class="fa fa-envelope"></i> Email</label>
                       <input type="text" id="email" name="email" placeholder="john@example.com">
                       <label for="fname"><i class="fa fa-user"></i> First Name</label>
                       <input type="text" id="fname" name="firstname" placeholder="Dwayne">
                       <label for="lname"><i class="fa fa-user"></i> Last Name</label>
                       <input type="text" id="lname" name="lastname" placeholder="Johnson">
-                      <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                      <label for="phoneno"><i class="fa fa-user"></i> Contact Number</label>
+                      <input type="text" id="phoneno" name="contactnumber" placeholder="(00) 0000 0000">
+                      <h2>Shipping Address</h2>
+                      <label for="adr"><i class="fa fa-address-card-o"></i> Street Name</label>
                       <input type="text" id="adr" name="address" placeholder="96 Swanston Street">
-                      <label for="city"><i class="fa fa-institution"></i> City</label>
-                      <input type="text" id="city" name="city" placeholder="Melbourne">
-          
-                      <div class="row">
-                        <div class="col-50">
+                      <label for="city"><i class="fa fa-institution"></i> Suburb</label>
+                      <input type="text" id="city" name="city" placeholder="Carlton">
                           <div class="state-select">
                               <label for="state">State</label>
                               <select>
-                                  <option value="0">Select state:</option>
+                                  <option value="0">Click to select state:</option>
                                   <option value="1">ACT</option>
                                   <option value="2">NSW</option>
                                   <option value="3">NT</option>
@@ -60,13 +59,8 @@
                                   <option value="8">WA</option>
                               </select>
                           </div>
-                          
-                        </div>
-                        <div class="col-50">
                             <label for="postcode">Postcode</label>
                             <input type="text" id="postcode" name="postcode" placeholder="0000">
-                        </div>
-                      </div>
                       <h2>Payment</h2>
                       <label for="cname">Name on card</label>
                       <input type="text" id="cname" name="cardname" placeholder="Dwayne Johnson">
@@ -74,40 +68,42 @@
                       <input type="text" id="cnum" name="cardnumber" placeholder="1111-2222-3333-4444">
                       <label for="expdate">Expiration Date</label>
                       <input type="text" id="expdate" name="expdate" placeholder="MM/YY">
-          
-                      <div class="row">
-                        <div class="col-50">
-                          <label for="cvv">CVV</label>
-                          <input type="text" id="cvv" name="cvv" placeholder="352">
-                        </div>
-                      </div>
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
                       <h2>Delivery Method</h2>
-                      <input type="radio" id="standard" name="del_method" value="Standard">
-                      <label for="standard">Standard (5-7 days)</label>
-                      <p>Free</p>
-                      <input type="radio" id="express" name="del_method" value="Express">
-                      <label for="standard">Express (2-4 days)</label>
-                      <p>$9.99</p>
+                    <div class="doption">
+                        <input type="radio" id="standard" name="del_method" value="Standard">
+                        <label for="standard">Standard (5-7 days)</label>
                     </div>
-          
-                  </div>
-                  <label>
-                    <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-                  </label>
+                    <div class="doption">
+                        <input type="radio" id="express" name="del_method" value="Express">
+                        <label for="standard">Express (2-4 days)</label>
+                    </div>
+                    </div>
                   
                 </form>
               </div>
             </div>
-            <div class="cart">
+            <div class="rcol">
                 <h2>Cart</h2>
-                <a href="product.html"><img src="home 1.png" alt=""></a> 
-                <p>$99</p>
-                <a href="product.html"><img src="home 2.png" alt=""></a>
-                <p>$99</p>
-                <p>Total</p>
-                <p>$198</p>
+                <div class="plist">
+                    <a href="product.html"><img class="pimage" src="home 1.png" alt=""></a> 
+                    <h3>Product Name</h3>
+                    <p class="newp">$99</p>
+                </div>
+                <div class="plist">
+                    <a href="product.html"><img class="pimage" src="home 2.png" alt=""></a>
+                    <h3>Product Name</h3>
+                    <p class="newp">$99</p>
+                </div>
+                <img class="tline" src="line.png" alt="">
+                <div class="total">
+                    <p>Total</p>
+                    <p>$198</p>
+                </div>
+                
                 <a href="confirm.html">
-                    <button class="btn">Shop</button>
+                    <button class="btn">Confirm Order</button>
                 </a>
 
             </div>

@@ -57,6 +57,7 @@
     #homepage .btn:hover {
         background-color: #EFEFEF;
         color: black;
+
     }
 
    
@@ -342,7 +343,6 @@
     #cart .btn {
         background-color: #FFCC00;
         opacity: 0.9;
-        color: white;
         padding: 12px;
         margin: 10px 0;
         border: none;
@@ -360,92 +360,214 @@
         display: flex;
     }
     
-    #checkout_page .cinfo {
-        margin-left: 6%;
+    #checkout_page .user_form {
         width: 60%;
     }
     
 
 
-    #checkout_page .col-50 > h2 {
-        text-align: center;
+    #checkout_page h2 {
         font-size: 28px;
         white-space: nowrap;
-        padding-bottom: 1em;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+        text-align: center;
     }
       
     #checkout_page .cont {
-        margin-left: 20%;
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    #checkout_page input {
+        margin-left: 15%;
     }
 
       
     #checkout_page input[type=text]{
-        width: 100%;
+        width: 70%;
         margin-bottom: 20px;
-        padding: 15px;
+        padding: 18px;
         border: 1px solid #ccc;
         border-radius: 6px;
 
     }
       
-    label {
-        display: block;
-        margin-bottom: 3%;
-        margin-left: 5%;
+
+    #checkout_page .user_form label {
+        display: grid;
+        padding-bottom: 2%;
+        margin-left: 16%;
         font-family: Playfair Display;
     }
       
       
-    #checkout_page .btn {
+    #checkout_page .btn, #conf .btn {
         background-color: #FFCC00;
         opacity: 0.9;
-        color: white;
         padding: 12px;
-        margin: 10px 0;
         border: none;
         width: 300px;
         height: 70px;
         border-radius: 10px;
-        cursor: pointer;
         font-size: 20px;
         margin-left: 12.5%;
         margin-top: 50%;
     }
       
-    #cart .btn:hover, #checkout_page .btn:hover {
+    #cart .btn:hover, #checkout_page .btn:hover, #conf .btn:hover {
         opacity: 1;
-        box-shadow: 5px 10px #EAEAEA;
-    }
-      
-    span.price {
-        float: right;
-        color: grey;
+        background-color: #f8c600;
+
+        box-shadow: 10px 10px #EAEAEA;
     }
 
     select {
         appearance: none;
-        margin-top: 4.25%;
         background-color: white;
-        padding: 15px;
         font-family: Playfair Display;
         color: #9b9b9b;
-        cursor: inherit;
+        width: 76.5%;
+        margin-bottom: 20px;
+        margin-left: 15%;
+        padding: 15px;
         border: 1px solid #ccc;
         border-radius: 6px;
     }
 
+    #checkout_page .rcol {
+        width: 25%;
+    }
+
+    #checkout_page .plist {
+        justify-content: space-between;
+    }
+
+    #checkout_page .pimage {
+        height: 100px;
+        padding-bottom: 1em;
+    }
+
+    #checkout_page h3 {
+        position: relative;
+        margin-top: 8%;
+    }
+
+    #checkout_page .newp {
+        margin-top: 7%;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .tline {
+        width: 100%;
+        opacity: 0.6;
+    }
+
+    #checkout_page .total {
+        display: flex;
+        justify-content: space-between;
+        font-family: Playfair Display;
+        font-size: 25px;
+    }
 
 
-    
-    
-    
+    .doption {
+        font-size: 20px;
+        font-family: Playfair Display;
+        padding: 1em;
+    }
 
+
+    /* Code for order confirmation*/
+
+    #conf .st_cont, #conf .items, #conf .details {
+        text-align: center;
+        font-family: Playfair Display;
+    }
+
+    #conf .thanks {
+        font-family: Avenir;
+        font-size: 20px;
+    }
+
+
+    .order_st {
+        position: relative;
+        padding-top: 2em;
+
+    }
+
+    #conf .circ {
+        height: 50px;
+        vertical-align: middle;
+    }
+
+    #conf .line {
+        width: 131px;
+        vertical-align: middle;
+    }
+
+    .st_info {
+        display: flex;
+        justify-content: space-evenly;
+        width: 46.5%;
+        margin-left: 27.2%;
+        text-align: center;
+    }
+
+    #conf .cont {
+        display: flex;
+    }
+    
+    #conf h2 {
+        font-weight: 500;
+        padding: 1em;
+    }
+    
+    #conf .items {
+        margin-left: 10%;
+    }
+
+    #conf .pimage {
+        height: 200px;
+        padding: 1em;
+    }
+
+    #conf h3 {
+        font-size: 21px;
+        margin-top: 13%;
+        padding-left: 5%;
+        white-space: nowrap;
+    }
+
+    #conf .newp {
+        font-weight: 500;
+        font-size: 25px;
+        margin-top: 12%;
+        padding-left: 10%;
+    }
+
+    #conf .quant {
+        position: absolute;
+        margin-top: 9%;
+        margin-left: 26%;
+    }
+
+    #conf .details {
+        padding-left: 15%;
+    }
     
 
 }
 
 
 @media screen and (max-width: 600px) {
+
+    h1 {
+        padding-top: 19%;
+    }
 
     .home_over {
         width: 100%;
@@ -473,39 +595,34 @@
         padding-right: 2em;
     }
 
-    .shopbutton {
-        position: absolute;
-        margin-left: -15.5%;
-        margin-top: 102%;
-        text-decoration: none;
+    #homepage .btn {
+        border: 2px solid white;
+        height: 70px;
+        width: 30%;
+        color: white;
+        font-family: Avenir;
+        font-size: 38px;
+        font-weight: 10;
+        letter-spacing: 0.05em;
+        background-color: transparent;
+        border-radius: 15px;
+        margin-top: 100%;
     }
 
-    .overlay > p {
-        position: absolute;
-        margin-left: 41%;
-        margin-top: 104%;
-        font-size: 40px;
-        font-weight: 10;
+    #homepage .btn:hover {
+        background-color: #EFEFEF;
+        color: black;
+
     }
+
+    
 
     .plist_page > h1 { 
         font-size: 40px;
         font-weight: 400;
-        padding-top: 20%;
     }
 
-    .overlay > a > img {
-        height: 80px;
-        width: 160px;
-    }
-
-    .overlay > a > h5 {
-        color: white;
-        margin-top: -45%;
-        font-size: 37px;
-        font-weight: 10;
-        letter-spacing: 0.03em;
-    }
+    
 
     /* The section below is for displaying products on the home and listing pages */
     .home_sale, .plist_page {
@@ -677,9 +794,6 @@
         text-align: center;
     }
 
-    #cart > h1 {
-        padding-top: 18%;
-    }
 
     #cart .pimage {
         width: 250px;
@@ -745,29 +859,18 @@
         padding-right: 2em;
     }
 
-    .checkoutbuttons {
-        padding: 2em;
-    }
-
-    .checkoutbuttons > a {
-        text-decoration: none;
-    }
-
-    .checkoutbuttons > img {
-        height: 60px;
-    }
-
-    .checkoutbuttons > a > img {
+    #cart .btn {
+        background-color: #FFCC00;
+        opacity: 0.9;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        width: 300px;
         height: 70px;
-
-    }
-
-    .checkoutbuttons > a > p {
-        color: white;
-        margin-top: -10%;
-        margin-left: 15%;
-        font-family: Playfair Display;
-        font-size: 20px;   
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        margin-top: 5%;
     }
 
     .tot {
@@ -776,4 +879,174 @@
         font-weight: 500;
         font-size: 25px;
     }
+
+    /* Code for mobile checkout page */
+
+
+
+
+    #checkout_page h2 {
+        font-size: 25px;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+        text-align: center;
+    }
+      
+    #checkout_page .cont {
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+      
+    #checkout_page input[type=text]{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 18px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+
+    }
+      
+
+    #checkout_page .user_form label {
+        display: grid;
+        padding-bottom: 2%;
+        margin-left: 1%;
+        font-family: Playfair Display;
+    }
+      
+      
+    #checkout_page .btn, #conf .btn {
+        background-color: #FFCC00;
+        opacity: 0.9;
+        padding: 12px;
+        border: none;
+        width: 50%;
+        height: 70px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+      
+    #cart .btn:hover, #checkout_page .btn:hover, #conf .btn:hover {
+        opacity: 1;
+        box-shadow: 5px 10px #EAEAEA;
+    }
+
+    select {
+        appearance: none;
+        background-color: white;
+        font-family: Playfair Display;
+        color: #9b9b9b;
+        width: 110%;
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+
+    #checkout_page .rcol {
+        padding: 2em;
+        text-align: center;
+    }
+
+    #checkout_page .pimage {
+        width: 60%;
+
+    }
+
+    #checkout_page h3 {
+        position: relative;
+        margin-top: 8%;
+    }
+
+    #checkout_page .newp {
+        margin-top: 7%;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .tline {
+        width: 100%;
+        opacity: 0.6;
+    }
+
+    #checkout_page .total {
+        display: flex;
+        justify-content: space-between;
+        font-family: Playfair Display;
+        font-size: 25px;
+    }
+
+
+    .doption {
+        font-size: 20px;
+        font-family: Playfair Display;
+        padding: 1em;
+    }
+
+    /* Code for mobile order confirmation */
+
+    #conf .st_cont, #conf .items, #conf .details {
+        text-align: center;
+        font-family: Playfair Display;
+    }
+
+    #conf .thanks {
+        font-family: Avenir;
+        font-size: 17px;
+        padding-bottom: 2em;
+    }
+
+    #conf .circ {
+        height: 40px;
+        vertical-align: middle;
+
+    }
+
+    #conf .line {
+        width: 131px;
+        vertical-align: middle;
+    }
+
+    .st_info {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 4em;
+        padding-right: 4em;
+        margin-left: 2.5%;
+        text-align: center;
+    }
+
+
+    
+    #conf h2 {
+        font-weight: 500;
+
+    }
+
+    #conf .pimage {
+        height: 200px;
+        padding: 1em;
+    }
+
+    #conf h3 {
+        font-size: 21px;
+        white-space: nowrap;
+    }
+
+    #conf .newp {
+        font-weight: 500;
+        font-size: 25px;
+
+
+    }
+
+    #conf .details {
+        padding-top: 5%;
+
+    }
+
+
+    
 }
