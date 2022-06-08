@@ -388,10 +388,10 @@
     #checkout_page input[type=text]{
         width: 70%;
         margin-bottom: 20px;
-        padding: 18px;
+        padding: 16px;
         border: 1px solid #ccc;
         border-radius: 6px;
-
+        font-size: 12px;
     }
       
 
@@ -401,9 +401,23 @@
         margin-left: 16%;
         font-family: Playfair Display;
     }
+
+    #checkout_page .btn {
+        position: absolute;
+        background-color: #FFCC00;
+        opacity: 0.9;
+        padding: 12px;
+        border: none;
+        width: 300px;
+        height: 70px;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-left: 51%;
+        margin-top: -110%;
+    }
       
       
-    #checkout_page .btn, #conf .btn {
+    #conf .btn {
         background-color: #FFCC00;
         opacity: 0.9;
         padding: 12px;
@@ -431,9 +445,10 @@
         width: 76.5%;
         margin-bottom: 20px;
         margin-left: 15%;
-        padding: 15px;
+        padding: 16px;
         border: 1px solid #ccc;
         border-radius: 6px;
+        font-size: 12px;
     }
 
     #checkout_page .rcol {
@@ -596,6 +611,7 @@
     }
 
     #homepage .btn {
+        position: absolute;
         border: 2px solid white;
         height: 70px;
         width: 30%;
@@ -607,6 +623,7 @@
         background-color: transparent;
         border-radius: 15px;
         margin-top: 100%;
+        margin-left: -15%;
     }
 
     #homepage .btn:hover {
@@ -900,12 +917,12 @@
 
       
     #checkout_page input[type=text]{
-        width: 100%;
+        width: 91%;
         margin-bottom: 20px;
-        padding: 18px;
+        padding: 16px;
         border: 1px solid #ccc;
         border-radius: 6px;
-
+        font-size: 12px;
     }
       
 
@@ -930,6 +947,7 @@
       
     #cart .btn:hover, #checkout_page .btn:hover, #conf .btn:hover {
         opacity: 1;
+        background-color: #f8c600;
         box-shadow: 5px 10px #EAEAEA;
     }
 
@@ -938,11 +956,12 @@
         background-color: white;
         font-family: Playfair Display;
         color: #9b9b9b;
-        width: 110%;
+        width: 100%;
         margin-bottom: 20px;
-        padding: 15px;
+        padding: 16px;
         border: 1px solid #ccc;
         border-radius: 6px;
+        font-size: 12px;
     }
 
     #checkout_page .rcol {

@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="template.css">
         <link rel="stylesheet" href="layout.css">
         <link rel="stylesheet" href="fonts.css">
+      
     </head>
     <body id="checkout_page">
         <nav>
@@ -29,47 +30,46 @@
         <div class="row">
             <div class="user_form">
               <div class="cont">
-                <form action="/action_page.php">
+                <form name="myForm" onsubmit="return(validate());">
                     <div class="user_info">
                       <h2>Customer Info</h2>
                       <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                      <input type="text" id="email" name="email" placeholder="john@example.com">
-                      <label for="fname"><i class="fa fa-user"></i> First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Dwayne">
-                      <label for="lname"><i class="fa fa-user"></i> Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Johnson">
+                      <input type="text" id="email" name="email" placeholder="john@example.com" >
+                      <small></small>
+                      <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                      <input type="text" id="name" name="name" placeholder="Dwayne Johnson" >
                       <label for="phoneno"><i class="fa fa-user"></i> Contact Number</label>
-                      <input type="text" id="phoneno" name="contactnumber" placeholder="(00) 0000 0000">
+                      <input type="text" id="phoneno" name="phoneno" placeholder="(00) 0000 0000">
                       <h2>Shipping Address</h2>
                       <label for="adr"><i class="fa fa-address-card-o"></i> Street Name</label>
-                      <input type="text" id="adr" name="address" placeholder="96 Swanston Street">
-                      <label for="city"><i class="fa fa-institution"></i> Suburb</label>
-                      <input type="text" id="city" name="city" placeholder="Carlton">
-                          <div class="state-select">
-                              <label for="state">State</label>
-                              <select>
-                                  <option value="0">Click to select state:</option>
-                                  <option value="1">ACT</option>
-                                  <option value="2">NSW</option>
-                                  <option value="3">NT</option>
-                                  <option value="4">QLD</option>
-                                  <option value="5">SA</option>
-                                  <option value="6">TAS</option>
-                                  <option value="7">VIC</option>
-                                  <option value="8">WA</option>
-                              </select>
-                          </div>
-                            <label for="postcode">Postcode</label>
-                            <input type="text" id="postcode" name="postcode" placeholder="0000">
+                      <input type="text" id="adr" name="adr" placeholder="96 Swanston Street" >
+                      <label for="suburb"><i class="fa fa-institution"></i> Suburb</label>
+                      <input type="text" id="suburb" name="suburb" placeholder="Carlton">
+                        <div class="state-select">
+                            <label for="state">State</label>
+                            <select>
+                                <option value="0">Click to select state:</option>
+                                <option value="1">ACT</option>
+                                <option value="2">NSW</option>
+                                <option value="3">NT</option>
+                                <option value="4">QLD</option>
+                                <option value="5">SA</option>
+                                <option value="6">TAS</option>
+                                <option value="7">VIC</option>
+                                <option value="8">WA</option>
+                            </select>
+                        </div>
+                        <label for="postcode">Postcode</label>
+                        <input type="text" id="postcode" name="postcode" placeholder="0000">
                       <h2>Payment</h2>
                       <label for="cname">Name on card</label>
-                      <input type="text" id="cname" name="cardname" placeholder="Dwayne Johnson">
+                      <input type="text" id="cname" name="cname" placeholder="Dwayne Johnson" >
                       <label for="cnum">Card number</label>
-                      <input type="text" id="cnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                      <input type="text" id="cnum" name="cnum" placeholder="1111-2222-3333-4444" >
                       <label for="expdate">Expiration Date</label>
-                      <input type="text" id="expdate" name="expdate" placeholder="MM/YY">
+                      <input type="text" id="expdate" name="expdate" placeholder="MM/YY" >
                       <label for="cvv">CVV</label>
-                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                      <input type="text" id="cvv" name="cvv" placeholder="000" >
                       <h2>Delivery Method</h2>
                     <div class="doption">
                         <input type="radio" id="standard" name="del_method" value="Standard">
@@ -80,7 +80,7 @@
                         <label for="standard">Express (2-4 days)</label>
                     </div>
                     </div>
-                  
+                    <input type="submit" value="Confirm Order" class="btn">
                 </form>
               </div>
             </div>
@@ -101,10 +101,6 @@
                     <p>Total</p>
                     <p>$198</p>
                 </div>
-                
-                <a href="confirm.html">
-                    <button class="btn">Confirm Order</button>
-                </a>
 
             </div>
             
@@ -141,6 +137,6 @@
         </div>   
 
         
-        <script src="" async defer></script>
+        <script src="scripts.js"></script>
     </body>
 </html>
