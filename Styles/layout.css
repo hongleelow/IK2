@@ -54,8 +54,8 @@
 
     .pline {
         position: relative;
-        width: 90%;
-        padding-left: 5%;
+        width: 80%;
+        padding-left: 8.5%;
         opacity: 0.3;
     }
 
@@ -63,7 +63,7 @@
         display: flex;
     }
 
-    #homepage .pimage, #plistpage .pimage, #cart .pimage {
+    #homepage .pimage, #plistpage .pimage {
         position: relative;
         height: 350px;
         padding-top: 2.5em;
@@ -222,14 +222,22 @@
 
     .summary {
         position: relative;
-        margin-left: 35%;
+        margin-left: 30%;
         margin-top: 5%;
+    }
+
+    #cart .pimage {
+        position: relative;
+        height: 300px;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+        margin-left: 25%;
     }
 
     #cart .pinfo {
         position: relative;
-        margin-left: 40%;
-        margin-top: 15%;
+        margin-left: 35%;
+        margin-top: 11%;
     }
 
      #cart .pinfo > h3 {
@@ -242,14 +250,20 @@
     }
 
     #cart .newp {
-        margin-top: 18%;
-        padding-left: 0.3em;
+        margin-top: 23%;
+        padding-left: 0.5em;
     } 
 
+    #cart .quant {
+        position: relative;
+        margin-left: 48%;
+        margin-top: -2%;
+    }
+
     .cline {
-        width: 160%;
+        width: 140%;
         opacity: 0.3;
-        padding-left: 8%;
+        padding-left: 15%;
     }
 
     .summary > h5 {
@@ -290,8 +304,8 @@
         width: 300px;
         height: 70px;
         border-radius: 10px;
-        cursor: pointer;
-        margin-top: 90%;
+        margin-top: 40%;
+        margin-left: 6%;
     }
 
     /*Code for checkout form */
@@ -344,11 +358,11 @@
         opacity: 0.9;
         padding: 12px;
         border: none;
-        width: 300px;
+        width: 25%;
         height: 70px;
         border-radius: 10px;
-        margin-left: 55%;
-        margin-top: -85%;
+        margin-left: 52%;
+        margin-top: -80%;
     }
       
       
@@ -556,8 +570,8 @@
     }
 
     .pline {
-        width: 90%;
-
+        width: 80%;
+        opacity: 0.6;
     }
 
     #homepage .condition, #plistpage .condition {
@@ -881,7 +895,7 @@
 
     #conf .pimage {
         width: 250px;
-        padding-left: 11%;
+        padding-left: 19%;
         padding-top: 1.5em;
     }
 
@@ -890,26 +904,18 @@
     }
 
     #conf .pinfo {
-        position: relative;
-        margin-left: 10.5%;
-        margin-top: 6%;
-
-    }
-
-    #conf .plist > h3 {
-        margin-left: 14%;
+        margin-left: 10%;
         margin-top: 10%;
     }
 
 
     #conf .newp {
-        margin-top: 19%;
-        margin-left: -13.5%;
+        margin-top: -2%;
     }
 
     #conf .quant {
-        margin-top: 28%;
-        margin-left: -8%;
+        margin-top: -4%;
+        margin-left: 2%;
     }
 
     #conf .btn {

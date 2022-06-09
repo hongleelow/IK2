@@ -66,6 +66,12 @@ function validate() {
     return false;
   }
 
+  var lengthpc = document.getElementById('postcode').value;
+  if (lengthpc.length !=4) {
+    alert("Please enter a valid Postcode");
+    return false; 
+  }
+
   var c = document.myForm.phoneno.value;
   var crange=/^[0-9]+$/;
   if (!c.match(crange)) {
@@ -73,11 +79,20 @@ function validate() {
       return false;
   }
 
+  
+
   /* Section to validate Cardholder name*/
 
   if( document.myForm.cname.value == "" ) {
     alert( "Please enter your card number" );
     return false;
+  }
+
+  var d = document.myForm.cname.value;
+  var drange=/^[0-9]+$/;
+  if (!d.match(drange)) {
+      alert("Please enter a valid card number");
+      return false;
   }
 
   /* Section to validate Card number*/
@@ -87,14 +102,14 @@ function validate() {
     return false;
   }
 
-  var d = document.myForm.phoneno.value;
-  var drange=/^[0-9]+$/;
-  if (!d.match(drange)) {
+  var e = document.myForm.phoneno.value;
+  var erange=/^[0-9]+$/;
+  if (!e.match(erange)) {
       alert("Please enter a valid postcode");
       return false;
   }
 
-  /* Section to validate Car expiry*/
+  /* Section to validate Card expiry*/
 
   if( document.myForm.expdate.value == "" ) {
     alert( "Please enter the expiry date" );
@@ -109,14 +124,17 @@ function validate() {
   }
 
   var lengthcvv = document.getElementById('cvv').value;
-  if (lengthcvv.length > 3) {
+  if (lengthcvv.length != 3) {
     alert("Please enter a valid CVV");
     return false; 
   }
 
-  
-
-  
+  var e = document.myForm.cvv.value;
+  var frange=/^[0-9]+$/;
+  if (!f.match(frange)) {
+      alert("Please enter a valid CVV");
+      return false;
+  }
 
 
   return( true );

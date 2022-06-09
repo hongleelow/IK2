@@ -70,30 +70,10 @@
 
     h1 {
         text-align: center;
-        font-size: 45px;
-        font-weight: 500;
         padding-top: 1.5em;
         padding-bottom: 0.8em;
-        opacity: 0.85;
     }
 
-    h2 {
-        
-    }
-
-    h3 {
-        font-weight: 50;
-    }
-
-    .oldp {
-        font-weight: 10;
-        text-decoration-line: line-through;
-    }
-
-    .newp {
-        font-weight: 600;
-        color: #9B7757;
-    }
 
     .condition {
         display: flex;
@@ -238,34 +218,7 @@
 
     h1 {
         text-align: center;
-        font-family: Avenir;
-        font-size: 40px;
-        font-weight: 400;
         padding-top: 0.3em;
-    }
-
-    h3 {
-        font-family: Playfair Display;
-        font-weight: 50;
-    }
-    
-    h4 {
-        font-family: Playfair Display;
-    }
-
-
-   
-
-    .oldp {
-        font-weight: 10;
-        font-family: Playfair Display;
-        text-decoration-line: line-through;
-    }
-
-    .newp {
-        font-weight: 500;
-        font-family: Playfair Display;
-        color: #9B7757;
     }
 
     .condition {

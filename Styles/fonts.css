@@ -20,6 +20,7 @@ h2 {
 
 h3 {
     font-family: Playfair Display;
+    font-weight: 500;
 }
 
 h4 {
@@ -31,7 +32,8 @@ h4 {
 }
 
 .oldp {
-    font-weight: 100;
+    font-weight: 10;
+    text-decoration: line-through;
 }
 
 .newp {
@@ -82,6 +84,11 @@ select {
 }
 
 @media screen and (min-width: 600px) {
+    h1 {
+        font-size: 45px;
+        font-weight: 400;
+    }
+
     .overlay > h2 {
         font-size: 66px;
         font-weight: 400;
@@ -118,7 +125,6 @@ select {
 
     #productpage .oldp {
         font-size: 28px;
-        text-decoration-line: line-through;
     }
 
     #productpage .newp {
@@ -141,16 +147,22 @@ select {
 
     #cart .pinfo > h3 {
         font-weight: 400;
-        font-size: 35px;
+        font-size: 30px;
         white-space: nowrap;
     }
 
     #cart .oldp {
-        font-size: 25px;
+        font-size: 24px;
     } 
 
     #cart .newp {
-        font-size: 30px;
+        font-size: 28px;
+    }
+
+    #cart .quant {
+        font-size: 22px;
+        letter-spacing: 0.1em;
+        font-weight: 400;
     }
 
     .summary > h5 {
@@ -226,6 +238,11 @@ select {
 }
 
 @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
     .overlay > h2 {
         font-size: 51px;
         font-weight: 100;
@@ -342,7 +359,7 @@ select {
     }
 
     #conf .newp {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     #conf .quant {
