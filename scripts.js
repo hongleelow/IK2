@@ -24,13 +24,6 @@ function validate() {
     return false;
   }
 
-  var a = document.myForm.name.value;
-  var arange=/^[a-zA-Z]+$/;
-  if (!a.match(arange)) {
-      alert("Please enter a valid name");
-      return false;
-  }
-
   /* Section to validate contact number*/
 
   if( document.myForm.phoneno.value == "" ) {
@@ -52,11 +45,20 @@ function validate() {
     return false;
   }
 
+  
+
   /* Section to validate Suburb*/
 
   if( document.myForm.suburb.value == "" ) {
     alert( "Please enter a suburb" );
     return false;
+  }
+
+  var suburbck = document.myForm.suburb.value;
+  var suburbckrange=/^[a-zA-Z]+$/;
+  if (!suburbck.match(suburbckrange)) {
+      alert("Please enter a valid suburb");
+      return false;
   }
 
   /* Section to validate Postcode*/
@@ -72,27 +74,19 @@ function validate() {
     return false; 
   }
 
-  var c = document.myForm.phoneno.value;
-  var crange=/^[0-9]+$/;
-  if (!c.match(crange)) {
+  var pcck = document.myForm.postcode.value;
+  var pcckrange=/^[0-9]+$/;
+  if (!pcck.match(pcckrange)) {
       alert("Please enter a valid postcode");
       return false;
   }
 
-  
 
   /* Section to validate Cardholder name*/
 
   if( document.myForm.cname.value == "" ) {
     alert( "Please enter your card number" );
     return false;
-  }
-
-  var d = document.myForm.cname.value;
-  var drange=/^[0-9]+$/;
-  if (!d.match(drange)) {
-      alert("Please enter a valid card number");
-      return false;
   }
 
   /* Section to validate Card number*/
@@ -102,9 +96,9 @@ function validate() {
     return false;
   }
 
-  var e = document.myForm.phoneno.value;
-  var erange=/^[0-9]+$/;
-  if (!e.match(erange)) {
+  var cnumck = document.myForm.cnum.value;
+  var cnumckrange=/^[0-9]+$/;
+  if (!cnumck.match(cnumckrange)) {
       alert("Please enter a valid postcode");
       return false;
   }
@@ -129,13 +123,12 @@ function validate() {
     return false; 
   }
 
-  var e = document.myForm.cvv.value;
-  var frange=/^[0-9]+$/;
-  if (!f.match(frange)) {
+  var cvvck = document.myForm.cvv.value;
+  var cvvckrange=/^[0-9]+$/;
+  if (!f.match(cvvckrange)) {
       alert("Please enter a valid CVV");
       return false;
   }
-
 
   return( true );
 }
