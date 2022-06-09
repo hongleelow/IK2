@@ -294,9 +294,9 @@
         margin-top: 90%;
     }
 
-    /* Test code for checkout form */
+    /*Code for checkout form */
 
-    .row {
+    #checkout_page .row {
         display: flex;
     }
     
@@ -553,7 +553,6 @@
     #homepage .newp, #plistpage .newp {
         display: inline;
         padding-left: 0.3em;
-        font-size: 30px;
     }
 
     .pline {
@@ -605,23 +604,14 @@
         text-align: center;
     }
 
-    #productpage .pinfo > h3 {
-        font-weight: 100;
-        font-size: 35px;
-    }
 
     .price {
         display: flex;
         justify-content: center;
     }
 
-    #productpage .oldp {
-        font-size: 25px;
-    }
-
     #productpage .newp {
         padding-left: 0.3em;
-        font-size: 30px;
         margin-top: 2.5%;
     }
 
@@ -634,7 +624,6 @@
     }
 
     .des {
-        font-family: 'Playfair Display', serif;
         padding: 2em;
     }
 
@@ -646,9 +635,7 @@
     .buttons > button {
         width: 100px;
         border-radius: 10px;
-        font-size: 22px;
         letter-spacing: 0.2em;
-        font-family: Avenir;
     }
 
     .atc {
@@ -680,8 +667,6 @@
       
 
     .extra {
-        font-family: Avenir;
-        font-style: oblique;
         text-align: center;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -715,30 +700,21 @@
 
     }
 
-    #cart .pinfo > h3 {
-        font-size: 22px;
-    }
-
     #cart .price {
         position: relative;
         margin-top: -13%;
-        font-weight: 100;
-        font-family: Playfair Display;
     }
 
     #cart .oldp {
-        font-size: 20px;
         padding-right: 0.5em;
     }
 
     #cart .newp {
         position: relative;
-        font-size: 24px;
         margin-top: 15%;
     }
 
     #cart .quant {
-        font-family: Playfair Display;
         margin-top: -5%;
     }
 
@@ -754,15 +730,10 @@
 
     .summary > h5 {
         margin-top: 3%;
-        font-size: 25px;
-        font-family: Avenir;
-        font-weight: 500;
     }
 
     .subtot, .other, .tot {
         display: flex;
-        font-size: 20px;
-        font-family: Playfair Display;
         justify-content: space-between;
     }
 
@@ -781,15 +752,12 @@
         height: 70px;
         border-radius: 10px;
         cursor: pointer;
-        font-size: 20px;
         margin-top: 5%;
     }
 
     .tot {
         padding-left: 1.5em;
         padding-right: 1.5em;
-        font-weight: 500;
-        font-size: 25px;
     }
 
     /* Code for mobile checkout page */
@@ -798,7 +766,6 @@
 
 
     #checkout_page h2 {
-        font-size: 25px;
         padding-top: 1em;
         padding-bottom: 0.5em;
         text-align: center;
@@ -811,13 +778,12 @@
     }
 
       
-    #checkout_page input[type=text]{
+    #checkout_page input[type=text] {
         width: 91%;
         margin-bottom: 20px;
         padding: 16px;
         border: 1px solid #ccc;
         border-radius: 6px;
-        font-size: 12px;
     }
       
 
@@ -825,7 +791,6 @@
         display: grid;
         padding-bottom: 2%;
         margin-left: 1%;
-        font-family: Playfair Display;
     }
       
       
@@ -837,7 +802,6 @@
         width: 70%;
         height: 70px;
         border-radius: 10px;
-        font-size: 20px;
     }
 
     #checkout_page .btn {
@@ -855,14 +819,11 @@
     select {
         appearance: none;
         background-color: white;
-        font-family: Playfair Display;
-        color: #9b9b9b;
         width: 100%;
         margin-bottom: 20px;
         padding: 16px;
         border: 1px solid #ccc;
         border-radius: 6px;
-        font-size: 12px;
     }
 
     #checkout_page .rcol {
@@ -886,27 +847,15 @@
     #checkout_page .total {
         display: flex;
         justify-content: space-between;
-        font-family: Playfair Display;
-        font-size: 25px;
-    }
-
-
-    .doption {
-        font-size: 20px;
-        font-family: Playfair Display;
-        padding: 1em;
     }
 
     /* Code for mobile order confirmation */
 
     #conf .st_cont, #conf .items, #conf .details {
         text-align: center;
-        font-family: Playfair Display;
     }
 
     #conf .thanks {
-        font-family: Avenir;
-        font-size: 17px;
         padding-bottom: 2em;
     }
 
@@ -930,13 +879,6 @@
         text-align: center;
     }
 
-
-    
-    #conf h2 {
-        font-weight: 500;
-
-    }
-
     #conf .pimage {
         width: 250px;
         padding-left: 11%;
@@ -955,21 +897,17 @@
     }
 
     #conf .plist > h3 {
-        font-size: 20px;
         margin-left: 14%;
         margin-top: 10%;
     }
 
 
     #conf .newp {
-        font-weight: 500;
-        font-size: 25px;
         margin-top: 19%;
         margin-left: -13.5%;
     }
 
     #conf .quant {
-        font-size: 18px;
         margin-top: 28%;
         margin-left: -8%;
     }

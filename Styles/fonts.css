@@ -48,6 +48,39 @@ h4 {
     font-family: Avenir;
 }
 
+.des {
+    font-family: Playfair Display;
+}
+
+.buttons > button {
+    font-family: Avenir;
+}
+
+#cart .quant {
+    font-family: Playfair Display;
+}
+
+.subtot, .other, .tot {
+    font-family: Playfair Display;
+}
+
+#checkout_page .user_form label {
+    font-family: Playfair Display;
+}
+
+select {
+    font-family: Playfair Display;
+    color: #9b9b9b;
+}
+
+#checkout_page .total {
+    font-family: Playfair Display;
+}
+
+#conf .st_cont, #conf .items, #conf .details {
+    font-family: Playfair Display;
+}
+
 @media screen and (min-width: 600px) {
     .overlay > h2 {
         font-size: 66px;
@@ -93,12 +126,10 @@ h4 {
     }
 
     .des {
-        font-family: Playfair Display;
         font-size: 20px;
     }
     
     .buttons > button {
-        font-family: Avenir;
         font-size: 20px;
         letter-spacing: 0.2em;
     }
@@ -130,7 +161,6 @@ h4 {
 
     .subtot, .other, .tot {
         font-size: 25px;
-        font-family: Playfair Display;
     }
 
     .checkoutbuttons > a > p { 
@@ -157,17 +187,13 @@ h4 {
         font-size: 12px;
     }
 
-    #checkout_page .user_form label {
-        font-family: Playfair Display;
-    }
+    
 
     #checkout_page .btn, #conf .btn {
         font-size: 20px;
     }
 
     select {
-        font-family: Playfair Display;
-        color: #9b9b9b;
         font-size: 12px;
     }
 
@@ -176,13 +202,9 @@ h4 {
     }
 
     #checkout_page .total {
-        font-family: Playfair Display;
         font-size: 25px;
     }
 
-    #conf .st_cont, #conf .items, #conf .details {
-        font-family: Playfair Display;
-    }
 
     #conf .thanks {
         font-family: Avenir;
@@ -228,8 +250,103 @@ h4 {
         font-weight: 10;
     }
 
-    #homepage .oldp, #plistpage .oldp {
+    #homepage .oldp, #plistpage .oldp, #productpage .oldp {
         font-size: 25px;
+    }
+
+    #homepage .newp, #plistpage .newp, #productpage .newp {
+        font-size: 30px;
+    }
+
+    #productpage .pinfo > h3 {
+        font-weight: 100;
+        font-size: 35px;
+    }
+
+    .buttons > button {
+        font-size: 22px;
+    }
+
+    .extra {
+        font-family: Avenir;
+        font-style: oblique;
+    }
+
+    #cart .pinfo > h3 {
+        font-size: 22px;
+    }
+
+    #cart .price {
+        font-weight: 100;
+        font-family: Playfair Display;
+    }
+
+    #cart .oldp {
+        font-size: 20px;
+    }
+
+    #cart .newp {
+        font-size: 24px;
+    }
+
+    .summary > h5 {
+        font-size: 25px;
+        font-family: Avenir;
+        font-weight: 500;
+    }
+
+    .subtot, .other, .tot {
+        font-size: 20px;
+    }
+
+    #cart .btn {
+        font-size: 20px;
+    }
+
+    .tot {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    #checkout_page h2 {
+        font-size: 25px;
+    }
+
+    #checkout_page input[type=text] {
+        font-size: 12px;
+    }
+
+    #checkout_page .btn, #conf .btn {
+        font-size: 20px;
+    }
+
+    select {
+        font-size: 12px;
+    }
+
+    #checkout_page .total {
+        font-size: 25px;
+    }
+
+    #conf .thanks {
+        font-family: Avenir;
+        font-size: 17px;
+    }
+
+    #conf h2 {
+        font-weight: 500;
+    }
+
+    #conf .plist > h3 {
+        font-size: 20px;
+    }
+
+    #conf .newp {
+        font-size: 25px;
+    }
+
+    #conf .quant {
+        font-size: 18px;
     }
 
 
