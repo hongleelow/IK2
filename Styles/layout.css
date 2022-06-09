@@ -21,17 +21,12 @@
     .overlay {
         width: 100%;
         position: relative;
-        color: white;
-        font-family: Avenir;
     }
 
     .overlay > h2 {
         position: absolute;
         margin-left: 16%;
         margin-top: 18%;
-        font-size: 66px;
-        font-weight: 400;
-        letter-spacing: 0.06em;
     }
 
     
@@ -43,11 +38,6 @@
         border: 2px solid white;
         height: 100px;
         width: 200px;
-        color: white;
-        font-family: Avenir;
-        font-size: 45px;
-        font-weight: 10;
-        letter-spacing: 0.05em;
         background-color: transparent;
         border-radius: 15px;
         margin-top: 32%;
@@ -83,8 +73,6 @@
 
     #homepage .plist > h3, #plistpage .plist > h3 {
         position: relative;
-        font-size: 35px;
-        font-weight: 50;
         margin-top: 11%;
         padding-left: 18%;
         white-space: nowrap;
@@ -92,17 +80,13 @@
 
     #homepage .oldp, #plistpage .oldp {
         position: relative;
-        font-size: 23px;
         margin-left: 15%;
         margin-top: 12.2%;
-        font-weight: 10;
     }
 
     #homepage .newp, #plistpage .newp {
         position: relative;
         padding-left: 1%;
-        font-size: 30px;
-        font-weight: 500;
         margin-top: 11.5%;
     }
 
@@ -113,7 +97,6 @@
     }
 
     .condition > p {
-        font-family: Avenir;
         position: relative;
         text-align: center;
         margin-top: 4%;
@@ -157,9 +140,6 @@
 
     #productpage .pinfo > h3 {
         position: relative;
-        font-family: Avenir;
-        font-weight: 200;
-        font-size: 55px;
         margin-top: 30%;
         padding-left: 24%;
     }
@@ -171,19 +151,11 @@
     }
 
     #productpage .oldp {
-        font-family: Playfair Display;
-        font-size: 28px;
-        font-weight: 10;
-        text-decoration-line: line-through;
         margin-top: 8.5%;
     }
 
     #productpage .newp {
-        font-family: Playfair Display;
         padding-left: 8%;
-        font-size: 35px;
-        font-weight: 500;
-        color: #9B7757;
     }
 
     #productpage .condition {
@@ -194,7 +166,6 @@
     }
 
     .condition > p {
-        font-family: Avenir;
         text-align: center;
         padding-left: 1em;
         padding-right: 1em;
@@ -202,8 +173,6 @@
 
 
     .des {
-        font-family: Playfair Display;
-        font-size: 20px;
         text-align: center;
         padding-top: 5%;
         padding-right: 10%;
@@ -218,11 +187,8 @@
     }
 
     .buttons > button {
-        font-family: Avenir;
         width: 80px;
-        font-size: 20px;
         border-radius: 10px;
-        letter-spacing: 0.2em;
     }
 
     .atc {
@@ -244,8 +210,6 @@
     }
 
     .extra {
-        font-family: Avenir;
-        font-style: oblique;
         text-align: center;
         padding-top: 5%;
     }
@@ -269,10 +233,7 @@
     }
 
      #cart .pinfo > h3 {
-        font-weight: 400;
-        font-size: 35px;
         margin-left: 10%;
-        white-space: nowrap;
     }
 
     #cart .price {
@@ -280,16 +241,9 @@
         margin-top: -12%;
     }
 
-    #cart .oldp {
-        font-size: 25px;
-        font-weight: 100;
-    } 
-
     #cart .newp {
-        font-size: 30px;
         margin-top: 18%;
         padding-left: 0.3em;
-        font-weight: 500;
     } 
 
     .cline {
@@ -300,15 +254,10 @@
 
     .summary > h5 {
         text-align: center;
-        font-size: 30px;
-        font-family: Avenir;
-        font-weight: 500;
     }
 
     .subtot, .other, .tot {
         display: flex;
-        font-size: 25px;
-        font-family: Playfair Display;
         justify-content: space-around;
     }
 
@@ -328,16 +277,8 @@
 
     .checkoutbuttons > a > p {
         position: absolute;
-        color: white;
-        font-family: Playfair Display;
-        font-size: 25px;
         margin-top: -22%;
         margin-left: 13%;
-    }
-
-    .tot {
-        font-weight: 500;
-        font-size: 30px;
     }
 
     #cart .btn {
@@ -350,7 +291,6 @@
         height: 70px;
         border-radius: 10px;
         cursor: pointer;
-        font-size: 20px;
         margin-top: 90%;
     }
 
@@ -367,8 +307,6 @@
 
 
     #checkout_page h2 {
-        font-size: 28px;
-        white-space: nowrap;
         padding-top: 1em;
         padding-bottom: 0.5em;
         text-align: center;
@@ -385,13 +323,12 @@
     }
 
       
-    #checkout_page input[type=text]{
+    #checkout_page input[type=text] {
         width: 70%;
         margin-bottom: 20px;
         padding: 16px;
         border: 1px solid #ccc;
         border-radius: 6px;
-        font-size: 12px;
     }
       
 
@@ -399,7 +336,6 @@
         display: grid;
         padding-bottom: 2%;
         margin-left: 16%;
-        font-family: Playfair Display;
     }
 
     #checkout_page .btn {
@@ -411,7 +347,6 @@
         width: 300px;
         height: 70px;
         border-radius: 10px;
-        font-size: 20px;
         margin-left: 55%;
         margin-top: -85%;
     }
@@ -425,7 +360,6 @@
         width: 300px;
         height: 70px;
         border-radius: 10px;
-        font-size: 20px;
         margin-left: 12.5%;
         margin-top: 50%;
     }
@@ -440,15 +374,12 @@
     select {
         appearance: none;
         background-color: white;
-        font-family: Playfair Display;
-        color: #9b9b9b;
         width: 76.5%;
         margin-bottom: 20px;
         margin-left: 15%;
         padding: 16px;
         border: 1px solid #ccc;
         border-radius: 6px;
-        font-size: 12px;
     }
 
     #checkout_page .rcol {
@@ -471,8 +402,6 @@
 
     #checkout_page .newp {
         margin-top: 7%;
-        font-size: 22px;
-        font-weight: 500;
     }
 
     .tline {
@@ -483,15 +412,6 @@
     #checkout_page .total {
         display: flex;
         justify-content: space-between;
-        font-family: Playfair Display;
-        font-size: 25px;
-    }
-
-
-    .doption {
-        font-size: 20px;
-        font-family: Playfair Display;
-        padding: 1em;
     }
 
 
@@ -499,12 +419,6 @@
 
     #conf .st_cont, #conf .items, #conf .details {
         text-align: center;
-        font-family: Playfair Display;
-    }
-
-    #conf .thanks {
-        font-family: Avenir;
-        font-size: 20px;
     }
 
 
@@ -537,7 +451,6 @@
     }
     
     #conf h2 {
-        font-weight: 500;
         padding: 1em;
     }
     
@@ -551,15 +464,11 @@
     }
 
     #conf h3 {
-        font-size: 21px;
         margin-top: 13%;
         padding-left: 5%;
-        white-space: nowrap;
     }
 
     #conf .newp {
-        font-weight: 500;
-        font-size: 25px;
         margin-top: 12%;
         padding-left: 10%;
     }
@@ -595,17 +504,12 @@
     .overlay {
         width: 100%;
         position: relative;
-        color: white;
-        font-family:Avenir;
         text-align: center;
     }
 
     .overlay > h2 {
         position: absolute;
         margin-top: 71%;
-        font-size: 51px;
-        font-weight: 100;
-        letter-spacing: 0.06em;
         padding-left: 2em;
         padding-right: 2em;
     }
@@ -615,11 +519,6 @@
         border: 2px solid white;
         height: 78px;
         width: 28%;
-        color: white;
-        font-family: Avenir;
-        font-size: 38px;
-        font-weight: 10;
-        letter-spacing: 0.05em;
         background-color: transparent;
         border-radius: 15px;
         margin-top: 100%;
@@ -629,17 +528,7 @@
     #homepage .btn:hover {
         background-color: #EFEFEF;
         color: black;
-
     }
-
-    
-
-    .plist_page > h1 { 
-        font-size: 40px;
-        font-weight: 400;
-    }
-
-    
 
     /* The section below is for displaying products on the home and listing pages */
     .home_sale, .plist_page {
@@ -654,15 +543,11 @@
 
     #homepage .plist > h3, #plistpage .plist > h3 {
         text-align: center;
-        font-size: 30px;
-        font-weight: 10;
     }
 
     #homepage .oldp, #plistpage .oldp {
         display: inline;
         margin-left: 5%;
-        font-size: 25px;
-
     }
 
     #homepage .newp, #plistpage .newp {
@@ -679,23 +564,23 @@
     #homepage .condition, #plistpage .condition {
         position: relative;
         display: flex;
-        margin-left: 4%;
         text-align: center;
         padding-top: 2em;
         padding-bottom: 2em;
+        margin-left: 11.25%;
     }
 
     .condition > img {
         height: 35px;
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
     }
 
     .condition > p {
         position: relative;
         margin-top: 0%;
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
     }
 
     /* This is the start of the code for the mobile product*/
@@ -831,7 +716,7 @@
     }
 
     #cart .pinfo > h3 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     #cart .price {
@@ -849,7 +734,12 @@
     #cart .newp {
         position: relative;
         font-size: 24px;
-        margin-top: 12%;
+        margin-top: 15%;
+    }
+
+    #cart .quant {
+        font-family: Playfair Display;
+        margin-top: -5%;
     }
 
     .cline {
@@ -1066,7 +956,7 @@
 
     #conf .plist > h3 {
         font-size: 20px;
-        margin-left: 12%;
+        margin-left: 14%;
         margin-top: 10%;
     }
 
@@ -1074,16 +964,19 @@
     #conf .newp {
         font-weight: 500;
         font-size: 25px;
-        margin-top: 20%;
-        margin-left: -14%;
+        margin-top: 19%;
+        margin-left: -13.5%;
     }
 
     #conf .quant {
         font-size: 18px;
-        margin-top: 30%;
+        margin-top: 28%;
         margin-left: -8%;
     }
 
+    #conf .btn {
+        margin-top: 3%;
+    }
 
     #conf .details {
         padding-top: 5%;
