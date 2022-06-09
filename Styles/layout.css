@@ -502,8 +502,7 @@
 
 
 @media screen and (max-width: 600px) {
-
-    h1 {
+    #plistpage h1,  #productpage h1, #cart h1, #checkout_page h1, #conf h1{
         padding-top: 19%;
     }
 
