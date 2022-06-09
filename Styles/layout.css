@@ -452,6 +452,11 @@
         vertical-align: middle;
     }
 
+    #conf .pline {
+        width: 100%;
+        margin-left: -6%;
+    }
+
     .st_info {
         display: flex;
         justify-content: space-evenly;
@@ -472,6 +477,11 @@
         margin-left: 10%;
     }
 
+    #conf .pinfo {
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
     #conf .pimage {
         height: 200px;
         padding: 1em;
@@ -488,9 +498,7 @@
     }
 
     #conf .quant {
-        position: absolute;
-        margin-top: 9%;
-        margin-left: 26%;
+        margin-left: 10%;
     }
 
     #conf .details {

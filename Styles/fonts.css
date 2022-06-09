@@ -223,10 +223,6 @@ select {
         font-size: 20px;
     }
 
-    #conf h2 {
-        font-weight: 500;
-    }
-
     #conf h3 {
         font-size: 21px;
         white-space: nowrap;
