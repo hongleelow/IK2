@@ -6,77 +6,81 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="Styles/template.css">
-        <link rel="stylesheet" href="Styles/layout.css">
-        <link rel="stylesheet" href="Styles/fonts.css">
+        <link rel="stylesheet" href="../Styles/template.css">
+        <link rel="stylesheet" href="../Styles/layout.css">
+        <link rel="stylesheet" href="../Styles/fonts.css">
 
     </head>
-    <body id="cart">
+    <body id="conf">
         <nav>
             <img src="../Images/hamburger black.png" alt="Menu logo" class="hamburger">
             <img class="search_bar" src="../Images/search bar.png" alt="">
             <img class="search_button" src="../Images/search icon.png" alt="">
             <p> Search </p>
-            <a href="index.html">
+            <a href="../index.html">
                 <img class="logo" src="../Images/ik2 logo.png" alt="Website logo-IK2" >
             </a>
             <a href="cart.html">
                 <img class="cart" src="../Images/cart black.png" alt="Shopping cart logo" >
             </a>
         </nav>
+        <h1>ORDER CONFIRMATION</h1>
+       <div class="st_cont">
+            <p class="thanks">Thank you for shopping at IK2. Your order #1290 <br> will be shipped with utmost caution as soon as possible.</p>
+            
+            <div class="order_st">
+                <img class="circ" src="../Images/Ellipse 8.png" alt="">
+                <img class="line" src="../Images/line 8.png" alt="">
+                <img class="circ" src="../Images/Ellipse 9.png" alt="">
+                <img class="line" src="../Images/line 8.png" alt="">
+                <img class="circ" src="../Images/Ellipse 10.png" alt="">
+            </div>
+            <div class="st_info">
+                <p>Order <br> Created <br> 6 Jun</p>
+                <p>Order <br> Shipped</p>
+                <p>Order <br> Delivered</p>
+            </div>
+       </div>
 
-        <h1>MY CART</h1>
-        <div class="cartcont">
-            <div class="cartprod">
+
+        <div class="cont">
+            <div class="items">
+                <h2>Order Items</h2>
                 <div class="plist">
                     <a href="product.html">
                         <img class="pimage" src="../Images/Home 1.png" alt="">
                     </a>
                     <div class="pinfo">
-                            <h3>Product Name</h3>
-                            <div class="price">
-                                <h4 class="oldp">$199</h4>
-                                <h4 class="newp">$99</h4>
-                            </div>
-                            <p class="quant">QTY: 1</p>
+                        <h3>Product Name</h3>
+                        <h4 class="newp">$99</h4>
+                        <p class="quant">QTY: 1</p>
                     </div>
                 </div>
-                <img class="cline" src="../Images/line.png" alt="">
+                <img class="pline" src="../Images/line.png" alt="">
                 <div class="plist">
                     <a href="product.html">
                         <img class="pimage" src="../Images/Home 2.png" alt="">
                     </a>
                     <div class="pinfo">
                         <h3>Product Name</h3>
-                        <div class="price">
-                            <h4 class="oldp">$199</h4>
-                            <h4 class="newp">$99</h4>
-                        </div>
+                        <h4 class="newp">$99</h4>
                         <p class="quant">QTY: 1</p>
                     </div>
-                </div>
-                <img class="cline" src="../Images/line.png" alt="">
+                </div> 
+                <img class="pline" src="../Images/line.png" alt="">
             </div>
-            <div class="summary"> 
-                <h5>Summary</h5>
-                <div class="subtot">
-                    <p>Subtotal</p>
-                    <p>$297</p>
-                </div>
-                <div class="other">
-                    <p>Other fees</p>
-                    <p>$0</p>
-                </div>
-                <div class="tot">
-                    <p>TOTAL</p>
-                    <p>$297</p>
-                </div>
-                <a href="checkout.html">
-                    <input type="button" value="Checkout" class="btn">
+            <div class="details">
+                <h2>Order Details</h2>
+                <p>Order Total: $188</p>
+                <p>Payment Method: Visa Debit ending 2259</p>
+                <p>Recipient Address: 96 Swanston St, 3000, NSW</p>
+                <a href="../index.html">
+                    <input type="button" value="Continue Shopping" class="btn">
                 </a>
+
             </div>
         </div>
-        
+
         <div class="info">
             <div class="delivery">
                 <img class="icon" src="../Images/delivery-svgrepo-com-2.png" alt="">
@@ -106,8 +110,9 @@
                 <button>SIGN UP</button>
             </div>
         </div>   
-       
-        <script src="scripts.js"></script>
+
+        
+        <script src="../Scripts/scripts.js"></script>
 
     </body>
 </html>

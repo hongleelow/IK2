@@ -13,7 +13,6 @@ function validate() {
   
   if (atpos < 1 || ( dotpos - atpos < 2 )) {
     alert("Please enter a valid email")
-    document.myForm.EMail.focus() ;
     return false;
   }
 
