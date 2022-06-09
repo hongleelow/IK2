@@ -108,6 +108,12 @@ function validate() {
     return false;
   }
 
+  var lengthcvv = document.getElementById('cvv').value;
+  if (lengthcvv.length > 3) {
+    alert("Please enter a valid CVV");
+    return false; 
+  }
+
   
 
   

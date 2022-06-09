@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Avenir;
+    src: url(../Fonts/AvenirLTStd-Book.otf);
+  }
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(../Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
 h1 {
     font-family: Avenir;
 }
