@@ -11,7 +11,7 @@
 @media screen and (min-width: 600px) {
 
     .home_over {
-        background-image: url("../Home back.png");
+        background-image: url("../Images/Home back.png");
         background-repeat: no-repeat;
         background-size: cover;
         height: 900px;
@@ -587,7 +587,7 @@
     .home_over {
         width: 100%;
         height: 1100px;
-        background-image: url("../mobile back.png");
+        background-image: url("../Images/mobile back.png");
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -1064,19 +1064,30 @@
 
     }
 
-    #conf .pinfo > h3 {
-        font-size: 25px;
+    #conf .plist > h3 {
+        font-size: 20px;
+        margin-left: 12%;
+        margin-top: 10%;
     }
 
 
     #conf .newp {
         font-weight: 500;
         font-size: 25px;
-
+        margin-top: 20%;
+        margin-left: -14%;
     }
+
+    #conf .quant {
+        font-size: 18px;
+        margin-top: 30%;
+        margin-left: -8%;
+    }
+
 
     #conf .details {
         padding-top: 5%;
+        padding-bottom: 2em;
 
     }
 
