@@ -8,6 +8,7 @@
     src: url(../Fonts/PlayfairDisplay-VariableFont_wght.ttf);
 }
 
+
 h1 {
     font-family: Avenir;
 }
@@ -28,4 +29,211 @@ h4 {
 .oldp, .newp, .btn {
     font-family: Playfair Display;
 }
+
+.oldp {
+    font-weight: 100;
+}
+
+.newp {
+    color: #9B7757;
+    font-weight: 500;
+}
+
+.overlay {
+    font-family: Avenir;
+    color: white;
+}
+
+.condition > p { 
+    font-family: Avenir;
+}
+
+@media screen and (min-width: 600px) {
+    .overlay > h2 {
+        font-size: 66px;
+        font-weight: 400;
+        letter-spacing: 0.06em;
+    }
+
+    #homepage .btn {
+        color: white;
+        font-family: Avenir;
+        font-size: 45px;
+        font-weight: 10;
+        letter-spacing: 0.05em;
+    }
+
+    #homepage .plist > h3, #plistpage .plist > h3 {
+        font-size: 35px;
+        font-weight: 50;
+    }
+
+    #homepage .oldp, #plistpage .oldp {
+        font-size: 23px;
+    }
+
+    #homepage .newp, #plistpage .newp {
+        font-size: 30px;
+    }
+
+    #productpage .pinfo > h3 {
+        font-family: Avenir;
+        font-weight: 200;
+        font-size: 55px;
+    }
+
+
+    #productpage .oldp {
+        font-size: 28px;
+        text-decoration-line: line-through;
+    }
+
+    #productpage .newp {
+        font-size: 35px;
+    }
+
+    .des {
+        font-family: Playfair Display;
+        font-size: 20px;
+    }
+    
+    .buttons > button {
+        font-family: Avenir;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+    }
+
+    .extra {
+        font-family: Avenir;
+        font-style: oblique;
+    }
+
+    #cart .pinfo > h3 {
+        font-weight: 400;
+        font-size: 35px;
+        white-space: nowrap;
+    }
+
+    #cart .oldp {
+        font-size: 25px;
+    } 
+
+    #cart .newp {
+        font-size: 30px;
+    }
+
+    .summary > h5 {
+        font-size: 30px;
+        font-family: Avenir;
+        font-weight: 500;
+    }
+
+    .subtot, .other, .tot {
+        font-size: 25px;
+        font-family: Playfair Display;
+    }
+
+    .checkoutbuttons > a > p { 
+        color: white;
+        font-family: Playfair Display;
+        font-size: 25px;
+    }
+
+    .tot {
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    #cart .btn {
+        font-size: 20px;
+    }
+
+    #checkout_page h2 {
+        font-size: 28px;
+        white-space: nowrap;
+    }
+
+    #checkout_page input[type=text] {
+        font-size: 12px;
+    }
+
+    #checkout_page .user_form label {
+        font-family: Playfair Display;
+    }
+
+    #checkout_page .btn, #conf .btn {
+        font-size: 20px;
+    }
+
+    select {
+        font-family: Playfair Display;
+        color: #9b9b9b;
+        font-size: 12px;
+    }
+
+    #checkout_page .newp {
+        font-size: 22px;
+    }
+
+    #checkout_page .total {
+        font-family: Playfair Display;
+        font-size: 25px;
+    }
+
+    #conf .st_cont, #conf .items, #conf .details {
+        font-family: Playfair Display;
+    }
+
+    #conf .thanks {
+        font-family: Avenir;
+        font-size: 20px;
+    }
+
+    #conf h2 {
+        font-weight: 500;
+    }
+
+    #conf h3 {
+        font-size: 21px;
+        white-space: nowrap;
+    }
+
+    #conf .newp {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .overlay > h2 {
+        font-size: 51px;
+        font-weight: 100;
+        letter-spacing: 0.06em;
+    }
+
+    #homepage .btn {
+        color: white;
+        font-family: Avenir;
+        font-size: 38px;
+        font-weight: 10;
+        letter-spacing: 0.05em;
+    }
+
+    .plist_page > h1 { 
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    #homepage .plist > h3, #plistpage .plist > h3 {
+        font-size: 30px;
+        font-weight: 10;
+    }
+
+    #homepage .oldp, #plistpage .oldp {
+        font-size: 25px;
+    }
+
+
+}
+
+
 
